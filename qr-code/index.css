@@ -1,0 +1,30 @@
+body{
+    background-color: hsl(212, 45%, 89%) ;
+}
+
+#container {
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    width: 24%;
+    padding: 0.5rem;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+#image {
+    border-radius: 7%;
+    width: 85%;
+    height: 45vh;
+    padding: 1rem;
+}
+h2 {
+    font-size: 40px;
+}
+
+p{
+    font-size: 15px;
+}
+@media (min-width: 375px) and (max-width: 1440px)  {
+    
+}
