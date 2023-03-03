@@ -1,7 +1,7 @@
 
 
 body{
-  background-color: hsl(212, 45%, 89%) ;
+  background-color: hsl(0, 0%, 100%) ;
 }
 
 
@@ -12,6 +12,7 @@ body{
       padding: 1rem;
       width: 85%;
   }
+
   h2 {
       font-size: 18px;
   }
@@ -32,6 +33,16 @@ body{
 
 }
 @media only screen and (min-width: 1440px){
+  .App{
+    background-color: hsl(212, 45%, 89%);
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    width: 1300px;
+    margin-top: 5%;
+    padding-top: 74PX;
+  }
+
   #container {
     margin: auto;
       background-color: white;
@@ -39,9 +50,7 @@ body{
       text-align: center;
       width: 295px;
       height: 62vh;
-      /* padding: 0.5rem; */
-      /* margin-left: 35%; */
-      margin-top: 5%;
+      place-items: center
   }
   
   #image {
